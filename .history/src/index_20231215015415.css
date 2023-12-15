@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap');
+  
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #b6c454;
+  margin: 1% 10%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+
+}
+h4{
+  font-size: 1rem;
+  color: rgb(56, 56, 56);
+}
+h3{
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin: 2rem 0rem;
+  color: rgb(56, 56, 56);
+}
+a{
+  color: rgb(56, 56, 56);
+
+
+}

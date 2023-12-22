@@ -23,7 +23,7 @@ function Cuisine(){
     }
         return(
             <div>
-                <Type>{params.type}</Type>
+                <h3>{params.type}</h3>
         <Grid
         animate={{ opacity: 1 }}
         initial={{ opacity:0 }}
@@ -37,7 +37,6 @@ function Cuisine(){
             <Link to={'/details/'+item.id}>
             <img alt={item.title} src={item.image} />
             <h4>{item.title }</h4>
-            <h5>150 تومان</h5>
             </Link>
             </Cart>
            )
@@ -51,8 +50,5 @@ display: grid;
   grid-template-columns: repeat(auto-fit ,minmax(20rem , 1fr));
   grid-gap: 3rem;
 `;
-const Type = styled.h3`
-text-align:right;
-`
 
 export default Cuisine;

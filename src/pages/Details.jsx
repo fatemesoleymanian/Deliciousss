@@ -24,17 +24,15 @@ function Details(){
 
     return(
         <DetailWrapper>
-            
             <div>
                 <h2>{recipe.title}</h2>
                 <img src={recipe.image} alt={recipe.title} />
             </div>
-
             <Info >
                 <Button className={activeTab === 'instructions' ? 'active' : ''}
-                onClick={()=>{setActiveTab('instructions')}}>دستور پخت</Button>
+                onClick={()=>{setActiveTab('instructions')}}>Instructions</Button>
                 <Button className={activeTab === 'ingredients' ? 'active' : ''}
-                onClick={()=>{setActiveTab('ingredients')}}>مواد لازم</Button>
+                onClick={()=>{setActiveTab('ingredients')}}>Ingredients</Button>
 
                 {activeTab === 'instructions' && (
                     <div>
@@ -52,6 +50,7 @@ function Details(){
                 
               
             </Info>
+
         </DetailWrapper>
     );
 }
